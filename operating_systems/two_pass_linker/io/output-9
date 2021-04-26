@@ -1,0 +1,9 @@
+Symbol Table
+
+Memory Map
+0:  1234
+1:  2000  Error: Type R address exceeds module size; 0 (relative) used
+2:  2345
+3:  1010
+4:  4002  Error: Type R address exceeds module size: 0 (relative) used
+5:  4003
