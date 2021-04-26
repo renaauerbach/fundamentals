@@ -2,6 +2,6 @@
 
 ### [Professor Shvartzshnaider](https://cs.nyu.edu/~yansh/)
 
-[Banker's Algorithm - Dijkstra (Java)](.../blob/d1e118549d17adec670b1bb9f2e61a25a866dc4e/banker_dijkstra)
-[Demand Paging (Java)](.../blob/d1e118549d17adec670b1bb9f2e61a25a866dc4e/demand_paging)
-[Two Pass Linker (Java)]()
+[Banker's Algorithm - Dijkstra (Java)](.../banker_dijkstra)  
+[Demand Paging (Java)](.../demand_paging)  
+[Two Pass Linker (Java)](two_pass_linker)
