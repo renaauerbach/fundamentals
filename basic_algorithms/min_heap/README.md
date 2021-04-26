@@ -8,7 +8,7 @@ In the new system each soldier gets an initial score when he enrolls. Throughout
 
 Help Dr.Catherine decide the eligible candidates who remain at the end.
 
-#### Input Format
+#### Input Format:
 
 The first line of the input is a number **n** which is the number candidates enrolled.
 
@@ -25,7 +25,7 @@ The next **m** lines can be of 2 types:
 
 **2 k** which tells that an evaluation has been conducted with a standard **k**. All candidates with score less than **k** will be disqualified and permanently discarded in this evaluation.
 
-#### Constraints
+#### Constraints:
 
 **1 <= n,m <= 10^5**
 **|s| <= 10**
@@ -34,6 +34,6 @@ The next **m** lines can be of 2 types:
 
 YOU MUST USE A MIN HEAP (WHICH YOU IMPLEMENT YOURSELF), TOGETHER WITH A JAVA HASHMAP. OTHER THAN THE HASHMAP AND STANDARD I/O METHODS, YOU SHOULD NOT USE ANY OTHER CLASSES OR METHODS FROM THE JAVA STANDARD LIBRARY
 
-#### Output Format
+#### Output Format:
 
 The output should contain the number of remaining soldiers after each query of type 2.

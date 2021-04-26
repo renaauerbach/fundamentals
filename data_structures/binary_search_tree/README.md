@@ -2,12 +2,10 @@
 
 #### Assignment Instructions:
 
-This assignment involves modeling a community of people using the data structures we covered in class to be
-able to answer certain questions about a community and its members.
+This assignment involves modeling a community of people using the data structures we covered in class to be able to answer certain questions about a community and its members.
 
-Each member `x` of the community is a person that has a `unique SSN`, a `name (first and last name)`, a `mother`, a
-`father`, and a `list of people (from within the community)` that x considers to be a friend.  
-_Note that if x considers y a friend, it does not necessarily follow that y considers x a friend_
+Each member `x` of the community is a person that has a `unique SSN`, a `name (first and last name)`, a `mother`, a `father`, and a `list of people (from within the community)` that x considers to be a friend.  
+_Note: if x considers y a friend, it does not necessarily follow that y considers x a friend_
 
 Your program should be able to answer the following queries: (detailed later in instructions)
 
@@ -18,7 +16,10 @@ Your program should be able to answer the following queries: (detailed later in 
 -   For a given person x, find all the Persons that consider x as their friend;
 -   Who has the most mutual friends;
 
-**Input: 2 files from command prompt**  
+#### Input Format:
+
+**2 files from command prompt**
+
 _Note: files must be read in this respective order_  
 _First input file:_ Contains the information about the community (one paragraph per person) with at least one blank between successive paragraphs.
 
@@ -46,11 +47,11 @@ The types of queries are:
 -   `WHO-HAS-MOST-MUTUAL-FRIENDS`  
     _Note that SSN in the above queries stands for an unsigned int_
 
-**Output:**  
-The same number of lines as there are query lines (the nth output line should be the answer for the nth query line in file queriesFileName)
+#### Output Format:
 
-Output format:  
-QUERY PERFORMED: QUERY ANSWER
+> QUERY PERFORMED: QUERY ANSWER
+
+The same number of lines as there are query lines (the nth output line should be the answer for the nth query line in file queriesFileName)
 
 -   The query-answer for the first 3 types of query should be two words: the first and last name of the answer-person
 -   The query-answer for the next 5 types of query should be a list of first name and last name pairs, separated by commas, and ordered so that their SSNs are in _increasing_ order.

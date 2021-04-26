@@ -6,19 +6,19 @@ The fellowship has decided upon crossing Moria for the paths in the mountains ar
 
 The fellowship is currently being pursued by hordes of orcs and needs to escape as fast as possible from the dungeons. Gandalf has given you the all important task of identifying the perils ahead. As there are too many orcs pursuing the fellowship, if you return to any room where you have previously been, it will be filled with orcs. Gandalf wants you to identify if there is a path which will lead to your doom (by making you visit some room where you already walked through) so that he may take measures to avoid it (assume the passages are one way for simplicity).
 
-#### Input Format
+#### Input Format:
 
 The map of Moria is presented as a series of passages which connect two rooms in the great labyrinth.
 
 The first line has **n,m** - the number of rooms and number of passages in the kingdom. The next **m** lines have two numbers **a,b** which tell that there is a passage from **a** to **b**.
 
-#### Constraints
+#### Constraints:
 
 **1 <= n <= 10^4**
 **0 <= m <= 10^6**
 **a,b exists [1, n]**
 
-#### Output Format
+#### Output Format:
 
 If there is no loop, output "0" on a line by itself.
 

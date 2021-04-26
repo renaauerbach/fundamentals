@@ -10,7 +10,7 @@ There will be a single type of query to the database
 
 -   given two planet names return the list of planet names and entrance fees of all planets between the two queried names, in lexicographic order
 
-#### Input Format
+#### Input Format:
 
 The first line contains a number **n** which is the size of the database.
 
@@ -24,7 +24,7 @@ The next **m** lines are of the form **a b**
 
 **a,b** - planet names.
 
-#### Constraints
+#### Constraints:
 
 **n,m <= 1000**
 **|a|,|b| <= 10**
@@ -34,6 +34,6 @@ YOU MUST USE 2-3 TREE DATA STRUCTURES PROVIDED IN CLASS
 
 To avoid time-outs, each range query **a b** should run in time **O(log n)** plus the number of planets in the range **a ... b**
 
-#### Output Format
+#### Output Format:
 
 For each query write down the names of the planets and the entrance fees, separated by a single space, in between (inclusive) **a,b** in separate lines.

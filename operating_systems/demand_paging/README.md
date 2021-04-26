@@ -2,7 +2,7 @@
 
 This program simulates **demand paging** to see how the number of page faults depends on page size, program size, replacement algorithm, and job mix.
 
-### Running this program:
+#### Running this program:
 
 1. Compile:
    `javac Paging.java`
@@ -10,12 +10,13 @@ This program simulates **demand paging** to see how the number of page faults de
 2. Run:
    `java Paging <input>`
 
-##### Input Format
+#### Input Format:
 
-> > <machine-size> <page-size> <size-per-process> <job-mix> <number-of-references-per-process> <replacement-algorithm (FIFO, RANDOM, LRU)>
+> <machine-size> <page-size> <size-per-process> <job-mix> <number-of-references-per-process> <replacement-algorithm (FIFO, RANDOM, LRU)>
+>
 > > Example: `10 10 20 1 10 lru`
 
-##### Output Format
+#### Output Format:
 
 ```
 The machine size is ___.

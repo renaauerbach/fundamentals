@@ -2,7 +2,7 @@
 
 This program simulates a **two-pass linker** for a word addressable target machine. The memory capacity is 300 words, each consisting of 4 decimal digits.
 
-### Running this program:
+#### Running this program:
 
 1. Compile:
    `javac TwoPassLinker.java`
@@ -12,6 +12,6 @@ This program simulates a **two-pass linker** for a word addressable target machi
 
 Enter input when prompted. Some inputs may require pressing `enter`, others may run automatically.
 
-##### Input Format
+#### Input Format:
 
-##### Output Format
+#### Output Format:

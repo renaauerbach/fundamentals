@@ -14,7 +14,7 @@ There will be three types of queries to the database
 -   increase the entrance fee for all planets between **a, b** by **k**
 -   return the entrance fee for a planet name **a** from the database
 
-#### Input Format
+#### Input Format:
 
 The first line contains the number of queries to be made to the database.
 
@@ -24,7 +24,7 @@ The next lines contain queries of the following 3 types
 -   **2 a b k** increase the entrance fee for all planets between **a, b** by **k**
 -   **3 a** return the entrance fee for a planet name **a** from the database
 
-#### Constraints
+#### Constraints:
 
 **n,m <= 100000**
 **|a|,|b| <= 10**
@@ -36,6 +36,6 @@ YOU MUST USE 2-3 TREE DATA STRUCTURES PROVIDED IN CLASS
 
 As discussed in class, every node in the tree should have a value field. To avoid time-outs, all queries, including range updates (type 2 queries), should run in time .
 
-#### Output Format
+#### Output Format:
 
 For each query of type print the entrance fee of the planet in a new line
