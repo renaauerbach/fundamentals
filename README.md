@@ -1,6 +1,6 @@
-# Rena Auerbach - Backend Skills
+# Rena Auerbach - Fundamental Skills
 
-A display of my back-end programming skills in Java.
+A display of my fundamental programming skills in Java.
 
 [Data Structures](/data_structures)  
 [Operating Systems](/operating_systems)  
